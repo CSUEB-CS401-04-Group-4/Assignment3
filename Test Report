@@ -1,0 +1,35 @@
+StringUtils Project
+
+Overview
+
+StringUtilsTestConcatenate:
+    To develop a utility class (StringUtils) with methods for string manipulations such as concatenation, reversal, conversion to uppercase, and trimming of whitespace. 
+    The project also involves validating these methods using JUnit parameterized tests.
+
+
+StringUtils Methods:
+  concatenate(String str1, String str2): Combines two strings, handling null inputs as empty strings.
+  reverse(String str): Reverses the characters in a string.
+  toUpperCase(String str): Converts all characters in a string to uppercase.
+  trim(String str): Removes leading and trailing whitespace from a string.
+
+Testing Strategy
+    Parameterized Tests: Used to validate each method under various conditions.
+Test Coverage:
+    Concatenate: Tested with different combinations of null and non-null strings.
+    Reverse: Included tests for empty, single character, and multi-character strings.
+    ToUpperCase: Covered cases with mixed-case inputs, including numbers and special characters.
+    Trim: Focused on strings with varying amounts of whitespace, including tabs and new lines.
+
+Test Execution and Results
+  Execution: Tests were run using the JUnit test runner in IntelliJ IDEA.
+Results:
+  Total Tests Executed: 24 (6 for each method)
+  Tests Passed: 24
+  Tests Failed: 0
+  Success Rate: 100%
+
+  Conclusion
+The StringUtils project successfully implemented essential string manipulation utilities with high reliability, 
+as evidenced by the comprehensive test coverage and 100% pass rate. The project adheres to best practices in software development, 
+including effective error handling and rigorous testing.
